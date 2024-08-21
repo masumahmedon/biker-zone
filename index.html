@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!-- Tailwindcss link -->
-    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    
     <!-- DaisyUI link cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -131,7 +130,7 @@
                </div>
                <!-- image content -->
                 <div class="flex-1">
-                  <img src="images/slider/bike3.png"class="w-[400px]" />
+                  <img src="images/slider/bike3.png"class="w-[400px]"/>
                 </div>
             </div>
             <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -141,8 +140,66 @@
           </div>
         </div>
      </header>
-     <!-- Main section -->
-      <main class="md:container mx-auto"></main>
+     <!-- Main section -->      
+      <main class="md:container mx-auto">
+        <!-- featured bike section home-work -->
+         <section></section>
+         <!-- Latest Bike Section -->
+          <section class="my-24">
+            <h3 class="text-5xl font-bold text-center mb-12">Latest Bikes</h3>
+            <!-- cards -->
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+              <!-- card-1 -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/others/latest1.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                    fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-bike-primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card-2 -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/others/latest2.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                    fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-bike-primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+              <!-- card-3 -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="images/others/latest3.png"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-body space-y-5">
+                  <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                    fermentum amet faucibus sed id nisi lectus at.</p>
+                  <div class="card-actions">
+                    <button class="btn bg-bike-primary text-white">Read More</button>
+                  </div>
+                </div>
+              </div>
+             </div>
+          </section>
+      </main>
       <!-- Footer section -->
        <footer></footer>
 </body>
